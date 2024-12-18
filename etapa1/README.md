@@ -51,22 +51,27 @@ El resultado final será un conjunto de datos enriquecido, listo para la siguien
 #### **Trabajo en equipo:**  
    - Usar un repositorio común:
       - Un integrante del equipo crea un repositorio e invita a los demás a su repositorio.
-      - El resto de integrantes clona el repositorio compartido
+      - El resto de integrantes clona el repositorio compartido.
+      - Todos trabajan contra el repositorio compartido.
    - Trabajo por pares:
-      - Recomendable aboradar las tareas por pares.
+      - Recomendable abordar las tareas por pares.
    - Dividir las tareas (ejemplo):
       - Tareas relacionadas con los `Historicos_Ordenes.csv`.
       - `Registros_Condiciones.csv` y `Caracteristicas_Equipos.csv`.
       - Consultas básicas y de agregación.
       - Joins y la creación del dataset combinado.
+   - Recomendaciones:
+      - Evitar trabajar en el mismo archivo a la vez.
+      - No es necesario trabajar por ramas en esta etapa.
+      - Comunicarse cuando haya commits y pushes para realizar pulls.
 
 #### **Entregables:**
-- Repositorio con los módulos de Python.
+- URL del repositorio con los módulos de Python.
 
 
 ### **Duración y Evaluación**
 1. **Duración:**  
-   - 3 horas
+   - 3 horas aprox
 
 
 3. **Criterios de Evaluación:**  
