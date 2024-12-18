@@ -42,6 +42,11 @@ El resultado final será un conjunto de datos enriquecido, listo para la siguien
 
 **NOTA: Todas las soluciones en Python deben implementarse mediante funciones. Las funciones deben invocarse al final para ejecutar el proceso deseado.**
 
+#### **Estructura de carpetas:**
+- Carpeta **src** para los `jupyter notebooks` y archivos de trabajo  
+- Carpeta **dist** para *exportar los jupyter notebooks a módulos*.
+- Los **data** para almacenar *csvs*
+
 
 #### **Trabajo en equipo:**  
    - Usar un repositorio común:
