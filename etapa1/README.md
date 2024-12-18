@@ -46,6 +46,7 @@ El resultado final será un conjunto de datos enriquecido, listo para la siguien
 - Carpeta **src** para los `jupyter notebooks` y archivos de trabajo  
 - Carpeta **dist** para *exportar los jupyter notebooks a módulos*.
 - Los **data** para almacenar *csvs*
+- Ejemplo: 
 
 ```
 .
