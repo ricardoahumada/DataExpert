@@ -3,7 +3,7 @@
 #### **Objetivo General**  
 En esta etapa se quiere crear una solución en Azure ML Studio para cargar y procesar datos de mantenimiento de equipos y registros de operación en Python. Se quiere aplicar operaciones básicas como filtrar, agrupar y resumir datos para extraer métricas iniciales, como frecuencia de mantenimiento y duración promedio de vida útil de los equipos. 
 
-Asimismo se quiere usar consultas SQL para obtener registros específicos, como el historial de fallos, tiempos entre mantenimientos y condiciones operativas de cada equipo. 
+Asimismo se quiere usar consultas SQL para obtener registros específicos, como el historial de fallos, tiempos entre mantenimientos y condiciones operativas de cada equipo. También generar nuevos datos derivados de los existentes para enriquecerlos.
 
 Para ello se trabajarña en equipo en modo colaborativo.
 
