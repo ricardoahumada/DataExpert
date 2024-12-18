@@ -47,6 +47,7 @@ El resultado final será un conjunto de datos enriquecido, listo para la siguien
 - Carpeta **dist** para *exportar los jupyter notebooks a módulos*.
 - Los **data** para almacenar *csvs*
 
+```
 .
 └── reposiutorio/
     ├── data/
@@ -55,6 +56,7 @@ El resultado final será un conjunto de datos enriquecido, listo para la siguien
     │   └── [archivos jupyter y python]
     └── dist/
         └── [módulos python]
+```
 
 
 #### **Trabajo en equipo:**  
