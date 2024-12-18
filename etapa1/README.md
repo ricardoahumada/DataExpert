@@ -40,7 +40,9 @@ El resultado final será un conjunto de datos enriquecido, listo para la siguien
      - Promedio de condiciones operativas (temperatura, vibración, presión) de cada equipo.
 
 
-**NOTA: Todas las soluciones en Python deben implementarse mediante funciones. Las funciones deben invocarse al final para ejecutar el proceso deseado.**
+**NOTAS:** 
+- Todas las soluciones en Python deben implementarse mediante funciones. Las funciones deben invocarse al final para ejecutar el proceso deseado.
+- Usar el kernel: **Python 3.8 - AzureML (Python 3.10.11)**
 
 #### **Estructura de carpetas:**
 - Carpeta **src** para los `jupyter notebooks` y archivos de trabajo  
