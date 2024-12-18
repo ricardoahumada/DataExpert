@@ -1,7 +1,11 @@
 ### Reto: **"Construyendo las bases del mantenimiento predictivo"**
 
 #### **Objetivo General**  
-Trabajar en equipo para explorar y manipular los datos del entorno de mantenimiento de una planta energética usando Python y SQL. El equipo debe aplicar operaciones básicas para extraer métricas iniciales que permitan entender la frecuencia de mantenimiento, la duración promedio de vida útil de los equipos y las condiciones operativas clave. 
+En esta etapa se quiere crear una solución en Azure ML Studio para cargar y procesar datos de mantenimiento de equipos y registros de operación en Python. Se quiere aplicar operaciones básicas como filtrar, agrupar y resumir datos para extraer métricas iniciales, como frecuencia de mantenimiento y duración promedio de vida útil de los equipos. 
+
+Asimismo se quiere usar consultas SQL para obtener registros específicos, como el historial de fallos, tiempos entre mantenimientos y condiciones operativas de cada equipo. 
+
+Para ello se trabajarña en equipo en modo colaborativo.
 
 El resultado final será un conjunto de datos enriquecido, listo para la siguiente fase.
 
