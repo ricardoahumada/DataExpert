@@ -45,8 +45,8 @@ El resultado final será un conjunto de datos enriquecido, listo para la siguien
 
 #### **Trabajo en equipo:**  
    - Usar un repositorio común:
-      - Un integrante invita a los demás a su repositorio.
-      - El resto clona el repositorio compartido
+      - Un integrante del equipo crea un repositorio e invita a los demás a su repositorio.
+      - El resto de integrantes clona el repositorio compartido
    - Trabajo por pares:
       - Recomendable aboradar las tareas por pares.
    - Dividir las tareas (ejemplo):
