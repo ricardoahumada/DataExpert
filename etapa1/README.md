@@ -3,7 +3,7 @@
 #### **Objetivo General**  
 En esta etapa se quiere crear una solución en Azure ML Studio para cargar y procesar datos de mantenimiento de equipos y registros de operación en Python. Se quiere aplicar operaciones básicas como filtrar, agrupar y resumir datos para extraer métricas iniciales, como frecuencia de mantenimiento y duración promedio de vida útil de los equipos. 
 
-Asimismo se quiere usar consultas SQL para obtener registros específicos, como el historial de fallos, tiempos entre mantenimientos y condiciones operativas de cada equipo. También generar nuevos datos derivados de los existentes para enriquecerlos.
+Asimismo se quiere usar consultas SQL para obtener registros específicos, como el historial de fallos, tiempos entre mantenimientos y condiciones operativas de cada equipo. También, generar nuevos datos derivados de los existentes para enriquecerlos.
 
 Para ello se trabajarña en equipo en modo colaborativo.
 
@@ -35,14 +35,13 @@ El resultado final será un conjunto de datos enriquecido, listo para la siguien
    - Determinar la suma total de horas acumuladas (`Horas_Acumuladas`) por equipo.
 
 6. **Joins y combinaciones:**
-   - Crear una tabla combinada que junte los datos de `Historicos_Ordenes` y `Registros_Condiciones` mediante el campo `ID_Equipo`. Esta tabla debe incluir:
+   - Crear una tabla combinada que una los datos de `Historicos_Ordenes` y `Registros_Condiciones` mediante el campo `ID_Equipo` en la tabla `Resultados_join`. Esta tabla debe incluir:
      - Número total de órdenes de mantenimiento por equipo.
      - Promedio de condiciones operativas (temperatura, vibración, presión) de cada equipo.
 
-7. **Exporta la tabla derivada:**
-   - Exporta la tabla derivada a csv usando Python
 
-Todas las soluciones en Python deben implementarse mediante funciones. Las funciones deben invocarse al final para ejecutar el proceso deseado.
+**NOTA: Todas las soluciones en Python deben implementarse mediante funciones. Las funciones deben invocarse al final para ejecutar el proceso deseado.**
+
 
 #### **Trabajo en equipo:**  
    - Usar un repositorio común:
