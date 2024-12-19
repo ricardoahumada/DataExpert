@@ -12,7 +12,7 @@ Nuestra misión es trabajar en equipo para generar un conjunto de datos enriquec
 1. **Carga de datos:**
    - Importar los datasets `Historicos_Ordenes.csv`, `Caracteristicas_Equipos.csv`, y `Registros_Condiciones.csv` usando Python (en memoria).
    - Crear nueva base de datos "data_powergen":
-      - Crear tabla de base de datos para datos de mantenimiento (Historicos_Ordenes). Carga los datos Historicos_Ordenes en la tabla correspondiente.
+      - Crear tabla de base de datos para datos de mantenimiento (Historicos_Ordenes). Cargar los datos Historicos_Ordenes en la tabla correspondiente.
       - Crear tabla de base de datos para generar información combinada (Resultados_join).
 
 2. **Filtrado y agrupamiento:**
