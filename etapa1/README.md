@@ -1,15 +1,11 @@
 ### Reto: **"Construyendo las bases del mantenimiento predictivo"**
 
 #### **Objetivo General**  
-En esta etapa se quiere crear una solución en Azure ML Studio para cargar y procesar datos de mantenimiento de equipos y registros de operación en Python. Se quiere aplicar operaciones básicas como filtrar, agrupar y resumir datos para extraer métricas iniciales, como frecuencia de mantenimiento y duración promedio de vida útil de los equipos. 
+En esta etapa se quiere crear una solución en Azure ML Studio para cargar y procesar datos de mantenimiento de equipos y registros de operación. El objetivo es extraer métricas iniciales, como frecuencia de mantenimiento y duración promedio de vida útil de los equipos, para comenzar a entender los datos. Asimismo, generar nuevos datos derivados de los existentes para enriquecerlos.
 
-Asimismo se quiere usar consultas SQL para obtener registros específicos, como el historial de fallos, tiempos entre mantenimientos y condiciones operativas de cada equipo. También, generar nuevos datos derivados de los existentes para enriquecerlos.
+Para ello, PowerGen nos ha provisto de 3 fuentes de datos para obtener la información que necesitamos: *Historicos de Ordenes de Trabajo*, *Caracteristicas de los Equipos*, y *Registros de Condiciones*.
 
-Para ello PowerGen nos ha provisto de 3 fuentes de datos: *Historicos de Ordenes de Trabajo*, *Caracteristicas de los Equipos*, y *Registros de Condiciones*
-
-Se trabajará en equipo en modo colaborativo.
-
-El resultado final será un conjunto de datos enriquecido, listo para la siguiente fase.
+Nuestra misión es trabajar en equipo para generar un conjunto de datos enriquecido, listo para la siguiente fase.
 
 
 #### **Tareas del Reto:**
@@ -36,7 +32,7 @@ El resultado final será un conjunto de datos enriquecido, listo para la siguien
    - Calcular el tiempo promedio entre mantenimientos para cada equipo.
    - Determinar la suma total de horas acumuladas (`Horas_Acumuladas`) por equipo.
 
-6. **Joins y combinaciones:**
+6. **Datos derivados:**
    - Crear una tabla combinada que una los datos de `Historicos_Ordenes` y `Registros_Condiciones` mediante el campo `ID_Equipo` en la tabla `Resultados_join`. Esta tabla debe incluir:
      - Número total de órdenes de mantenimiento por equipo.
      - Promedio de condiciones operativas (temperatura, vibración, presión) de cada equipo.
@@ -47,9 +43,9 @@ El resultado final será un conjunto de datos enriquecido, listo para la siguien
 - Usar el kernel: **Python 3.8 - AzureML (Python 3.10.11)**
 
 #### **Estructura de carpetas:**
-- Carpeta **src** para los `jupyter notebooks` y archivos de trabajo  
+- Carpeta **src** para los `jupyter notebooks` y `archivos` de trabajo  
 - Carpeta **dist** para *exportar los jupyter notebooks a módulos*. (Opcional).
-- Los **data** para almacenar *csvs*
+- Los **data** para almacenar archivos *csv*
 - Ejemplo: 
 
 ```
@@ -69,25 +65,29 @@ El resultado final será un conjunto de datos enriquecido, listo para la siguien
       - Un integrante del equipo crea un repositorio e invita a los demás a su repositorio.
       - El resto de integrantes clona el repositorio compartido.
       - Todos trabajan contra el repositorio compartido.
+      - Nota: invitar también al formador
    - Trabajo por pares:
       - Recomendable abordar las tareas por pares.
    - Dividir las tareas (ejemplo):
       - Tareas relacionadas con los `Historicos_Ordenes.csv`.
       - `Registros_Condiciones.csv` y `Caracteristicas_Equipos.csv`.
       - Consultas básicas y de agregación.
-      - Joins y la creación del dataset combinado.
+      - Generación de tablas derivadas.
    - Recomendaciones:
-      - Evitar trabajar en el mismo archivo a la vez.
-      - No es necesario trabajar por ramas en esta etapa.
-      - Comunicarse cuando haya commits y pushes para realizar pulls.
+      - Evitar trabajar en el mismo archivo a la vez. Especialmente los jupyter notebooks.
+      - No es necesario trabajar por ramas.
+      - Comunicarse cuando haya commits y pushes para realizar pulls. Evitar en lo posible conflictos.
+
 
 #### **Entregables:**
 - URL del repositorio con los módulos de Python.
+- Se debe añadir a la tarea del campus (1 por equipo)
 
 
 ### **Duración y Evaluación**
 1. **Duración:**  
-   - 3 horas aprox
+   - 3 horas aprox.
+   - Los descansos están a criterio de cada equipo.
 
 
 3. **Criterios de Evaluación:**  
