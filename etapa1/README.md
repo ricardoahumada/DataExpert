@@ -5,7 +5,9 @@ En esta etapa se quiere crear una solución en Azure ML Studio para cargar y pro
 
 Asimismo se quiere usar consultas SQL para obtener registros específicos, como el historial de fallos, tiempos entre mantenimientos y condiciones operativas de cada equipo. También, generar nuevos datos derivados de los existentes para enriquecerlos.
 
-Para ello se trabajarña en equipo en modo colaborativo.
+Para ello PowerGen nos ha provisto de 3 fuentes de datos: *Historicos de Ordenes de Trabajo*, *Caracteristicas de los Equipos*, y *Registros de Condiciones*
+
+Se trabajará en equipo en modo colaborativo.
 
 El resultado final será un conjunto de datos enriquecido, listo para la siguiente fase.
 
@@ -46,7 +48,7 @@ El resultado final será un conjunto de datos enriquecido, listo para la siguien
 
 #### **Estructura de carpetas:**
 - Carpeta **src** para los `jupyter notebooks` y archivos de trabajo  
-- Carpeta **dist** para *exportar los jupyter notebooks a módulos*.
+- Carpeta **dist** para *exportar los jupyter notebooks a módulos*. (Opcional).
 - Los **data** para almacenar *csvs*
 - Ejemplo: 
 
@@ -55,10 +57,10 @@ El resultado final será un conjunto de datos enriquecido, listo para la siguien
 └── reposiutorio/
     ├── data/
     │   └── [archivos csv]
-    ├── src/
-    │   └── [archivos jupyter y python]
-    └── dist/
-        └── [módulos python]
+    ├── dist/
+    │   └── [módulos python]
+    └── src/
+        └── [archivos jupyter y python]
 ```
 
 
