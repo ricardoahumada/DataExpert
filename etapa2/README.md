@@ -31,8 +31,6 @@ Nuestra misión es analizar y visualizar los datos de mantenimiento de los equip
     - **Frecuencia de mantenimiento**: Número de mantenimientos realizados por equipo.
     - **Vida útil estimada**: Estimación de la vida útil de los equipos basada en las horas operativas.
   
-  - **Recomendación:** Utilizar bibliotecas como `pandas`, `numpy` y `matplotlib` para la limpieza y visualización básica de los datos.
-
 #### **2. Análisis Exploratorio de Datos con Python**
 
   **Objetivo:** Analizar las relaciones entre las características de los equipos, el historial de órdenes de trabajo y las condiciones operativas.
@@ -61,7 +59,7 @@ Nuestra misión es analizar y visualizar los datos de mantenimiento de los equip
     - **Tiempo hasta fallo**: ¿Cuánto tiempo de operación transcurre hasta que un equipo requiere mantenimiento?
     - **Relación entre condiciones operativas y fallos**: ¿Cómo impactan la vibración o temperatura en la probabilidad de un fallo?
   
-  - **Recomendación:** Usar `pandas` para realizar los **joins** y la combinación de datasets, además de limpiar los datos resultantes para asegurarse de que no haya errores en los valores.
+  - **Recomendación:** Usar `pandas` para realizar los **joins o merges** y la combinación de datasets, además de limpiar los datos resultantes para asegurarse de que no haya errores en los valores.
 
 #### **4. Visualización de Datos**
 
@@ -76,7 +74,6 @@ Nuestra misión es analizar y visualizar los datos de mantenimiento de los equip
   
   - Generar una **visualización de la frecuencia de mantenimiento** por tipo de equipo y la relación con el tipo de mantenimiento (correctivo/preventivo).
   
-  - **Recomendación:** Usar bibliotecas de visualización como `matplotlib`, `seaborn` y `plotly` para crear gráficos interactivos y visualizaciones detalladas.
 
 #### **5. Carga y Almacenamiento**
 
@@ -86,6 +83,14 @@ Nuestra misión es analizar y visualizar los datos de mantenimiento de los equip
     - 📂 CSV limpio para análisis exploratorio.
     - 🗄️ PostgreSQL para almacenamiento estructurado.
   - Opcional: Guardar en formato Parquet para optimizar rendimiento.
+
+
+#### **6. Conclusiones**
+
+  **Objetivo:** Generar un resumen sobre la calidad de los datos y los insights encontrados.
+  **Tareas:**
+  - Redacta las conclusiones del análisis y limpieza de datos
+
 
 #### **NOTAS:** 
 - Todas las soluciones en Python deben implementarse mediante funciones. Las funciones deben invocarse al final para ejecutar el proceso deseado.
