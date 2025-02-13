@@ -126,7 +126,7 @@ Nuestra misión es analizar y visualizar los datos de mantenimiento de los equip
       - Comunicarse cuando haya commits y pushes para realizar pulls. Evitar en lo posible conflictos.
 
 ### **Entregables:**
-
+- Repositorio que contenga:
 1. **Código Python** con la limpieza, preprocesamiento y análisis de datos.
 2. **Jupyter Notebook** o archivo de texto que contenga todo el análisis exploratorio realizado, incluyendo los insights obtenidos.
 3. **Visualizaciones** generadas para mostrar los patrones y relaciones entre las variables clave.
