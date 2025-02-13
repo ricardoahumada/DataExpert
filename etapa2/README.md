@@ -77,7 +77,7 @@ Nuestra misión es analizar y visualizar los datos de mantenimiento de los equip
 
 #### **5. Carga y Almacenamiento**
 
-  **Objetivo:** Crear visualizaciones interesantes para mostrar los hallazgos encontrados durante el análisis y la combinación de datos.
+  **Objetivo:** Almacenar los datos limpios y preparados para la siguiente etapa.
   **Tareas:**
   - Guardar el dataset final en:
     - 📂 CSV limpio para análisis exploratorio.
