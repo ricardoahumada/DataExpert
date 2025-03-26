@@ -1,7 +1,7 @@
 ## Reto: **"Predicción de Fallos en Equipos en Plantas Energéticas"**
 
 **Objetivo del Reto:**  
-Evolucionar la solución para desarrollar un modelo analítico predictivo que permita anticipar fallos en los equipos de la planta energética con una precisión mínima del **80% (accuracy ≥ 0.80)**. 
+Evolucionar la solución para desarrollar un modelo analítico predictivo que permita anticipar fallos en los equipos de la planta energética con una precisión mínima del **80% (accuracy ≥ 0.80)** y por lo menos un **0.75 de f1**. 
 
 Para lograr esto, deberéis:
 
