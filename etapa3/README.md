@@ -13,6 +13,7 @@ Para lograr esto, deberéis:
 
 
 #### **NOTAS:** 
+- Aunque estos datasets tienen naturaleza temporal, se deben tratar las muestras como imputaciones independientes.
 - Todas las soluciones en Python deben implementarse mediante funciones. Las funciones deben invocarse al final para ejecutar el proceso deseado.
 - Usar el kernel: **Python 3.8 - AzureML (Python 3.10.11)**
 
