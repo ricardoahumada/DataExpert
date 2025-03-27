@@ -1,16 +1,61 @@
-# DataExpert
-# Modelo analítico predictivo para PowerGen
+## Reto: **"Predicción de Fallos en Equipos en Plantas Energéticas"**
 
-- **BananaData** es una empresa especializada en transformar datos en estrategias de éxito. En BananaData, estamos acostumbrados a enfrentar desafíos que requieren precisión y análisis profundo. Uno de nuestros clientes preferentes es **PowerGen**, una reconocida empresa de plantas energéticas. Se acercó a nosotros con una solicitud especial: PowerGen administra varias plantas energéticas que operan 24/7, con equipos y maquinaria que necesitan estar en condiciones óptimas. Sin embargo, los fallos inesperados en estos equipos han comenzado a causar pérdidas significativas, afectando tanto los tiempos de operación como los costes de mantenimiento.
-- PowerGen quiere anticipar estos fallos antes de que ocurran y optimizar su programa de mantenimiento. Nos piden que desarrollemos un **modelo predictivo** que, no solo ayude a identificar patrones en los datos de mantenimiento, sino que también permita predecir fallos en los equipos clave, permitiendo actuar de forma proactiva y planificar el mantenimiento de manera más efectiva.
-- Desde BananaData hemos diseñado un proyecto integral, una **"hoja de ruta de datos"** que incluye desde el análisis inicial hasta el desarrollo y despliegue del modelo en la nube. El modelo aprovechará **datos históricos de órdenes de trabajo, características de los equipos y registros de condiciones operativas** para anticipar los posibles puntos de fallo.
-- El objetivo final es mejorar la eficiencia y seguridad de las plantas de PowerGen, aprovechando al máximo el poder de sus propios datos.
+**Objetivo del Reto:**  
+Evolucionar la solución para desarrollar un modelo analítico predictivo que permita anticipar fallos en los equipos de la planta energética con una precisión mínima del **80% (accuracy ≥ 0.80)** y por lo menos un **0.75 de f1**. 
 
-## Objetivo General
+Para lograr esto, deberéis:
 
-Desarrollar un modelo analítico que permita predecir fallos en equipos clave dentro de una planta energética. Utilizando datos históricos de mantenimiento, especificaciones técnicas de los equipos y registros de operación. 
-El proyecto abordará la construcción de una solución de análisis predictivo que ayude a mejorar el mantenimiento preventivo, optimizar tiempos de operación y reducir costos asociados con el tiempo de inactividad no planificado.
-Para ello se aprovecharán **datos históricos de órdenes de trabajo, características de los equipos y registros de condiciones operativas** para anticipar los posibles puntos de fallo.
+1. **Mezclar y preprocesar los datos** de los 3 datasets proporcionados.  
+2. **Seleccionar variables relevantes** y generar nuevas características si es necesario.  
+3. **Construir y evaluar múltiples modelos predictivos**, comparando su rendimiento.  
+4. **Ajustar hiperparámetros** y optimizar el modelo para alcanzar la precisión deseada.  
+5. **Documentar los hallazgos** y justificar la elección del mejor modelo.  
 
 
-<img src="./imgs/hoja_ruta.jpg" />
+#### **NOTAS:** 
+- Aunque estos datasets tienen naturaleza temporal, se deben tratar las muestras como imputaciones independientes.
+- Todas las soluciones en Python deben implementarse mediante funciones. Las funciones deben invocarse al final para ejecutar el proceso deseado.
+- Usar el kernel: **Python 3.8 - AzureML (Python 3.10.11)**
+
+
+### **Estructura de carpetas:**
+- Carpeta **src** para los `jupyter notebooks` y `archivos` de trabajo  
+- Carpeta **dist** para *exportar los jupyter notebooks a módulos*. (Opcional).
+- Ejemplo: 
+
+```
+.
+└── repositorio/
+    ├── dist/
+    │   └── [módulos python]
+    └── src/
+        └── [archivos jupyter y python]
+```
+
+
+### **Trabajo en equipo:**  
+   - Usar un repositorio el común.
+      - Trabajar en la rama "etapa 3"
+   - Trabajo por pares:
+      - Recomendable abordar las tareas por pares.
+   - Dividir las tareas.
+   - Recomendaciones:
+      - Evitar trabajar en el mismo archivo a la vez. Especialmente los jupyter notebooks.
+      - Comunicarse cuando haya commits y pushes para realizar pulls. Evitar en lo posible conflictos.
+
+### **Entregables:**
+- Repositorio que contenga:
+1. **Jupyter Notebook conteniendo:  **
+   - Código documentado y estructurado.  
+   - Visualizaciones clave del análisis exploratorio.  
+   - Comparación de modelos con sus métricas.  
+   - Justificación del modelo elegido y posibles mejoras.  
+
+2. **Reflexión:** sobre los desafíos encontrados y pasos futuros.
+
+### **Criterios de Evaluación:**  
+
+- **Claridad en el código**: El notebook debe reflejar un proceso estructurado.
+- **Feature engineering**: Selección, transformación y generación de variables (según sea necesario).
+- **Proceso de entrenamiento**: Selección de candidatos y la secuencia de pasos que garanticen un buen análisis y evaluación de los mismos.
+- **Resultado final**: Evidenciar el logro del objetivo planteado y justificar la elección del modelo (si se ha identificado).
