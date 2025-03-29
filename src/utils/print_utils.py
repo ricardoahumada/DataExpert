@@ -24,3 +24,7 @@ def headr(text):
 
 def titl(text):
     return ('\n'+color.BOLD+color.UNDERLINE+color.BLUE + "** " + text.upper() + " **" + color.END+'\n')
+
+
+def ptitl(text):
+    print('\n'+color.BOLD+color.UNDERLINE+color.BLUE + "** " + text.upper() + " **" + color.END+'\n')
