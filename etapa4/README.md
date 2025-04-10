@@ -1,7 +1,11 @@
 ## Reto: **"Predicción de Fallos en Equipos en Plantas Energéticas a 15 días vista"**
 
 **Objetivo del Reto:**  
-Evolucionar la solución para desarrollar un modelo analítico predictivo que permita anticipar fallos a 15 días vista en los equipos de la planta energética con una precisión mínima del **80% (accuracy ≥ 0.80)** y por lo menos un **0.75 de f1**. Evalúa la robustés del modelo en el tiempo.
+Evolucionar la solución para desarrollar un modelo analítico predictivo que permita anticipar fallos a 15 días vista en los equipos de la planta energética con una precisión mínima del **80% (accuracy ≥ 0.80)** y por lo menos un **0.75 de f1**. 
+- Por un lado se quiere predecir las horas operativas que tendrá un equipo en los próximos 15 días, de cara a considerar su mantenimiento conforme a las horas recomendadas de revisión.
+- Por otro lado, se quiere evaluar si una máquina fallará en los próximos 15 días, con un 80% de fiabilidad.
+
+Evalúa la robustés del modelo en el tiempo.
 
 Para lograr esto, deberéis:
 
