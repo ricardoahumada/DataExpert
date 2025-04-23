@@ -6,6 +6,6 @@ def explr(df):
     print(pu.headr('Columnas:'))
     print(df.columns.to_list())
     print(pu.headr('Numéricas'))
-    pu.tabl(df.describe())
+    print(df.describe())
     print(pu.headr('Categóricas'))
-    pu.tabl(df.describe(include=object))
+    print(df.describe(include=object))
