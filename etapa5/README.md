@@ -20,7 +20,6 @@ Para lograr esto, deberéis:
 #### **NOTAS:** 
 - Usar el kernel: **Python 3.8 - AzureML (Python 3.10.11)**
 - Usar los compute assets provistos
-- Usar despliegue basado en AKS.
 
 
 ### **Estructura de carpetas:**
